@@ -69,11 +69,16 @@ h2 {
     clear: both;
     overflow: auto;
     background: url("../images/gravel.png");
+
    
 
     
 }
-#About-me{
+.submit{
+    background-color: #4aaaa5;
+    color: #777777;
+}
+#Contact{
     
     background-color: #ffffff;
     color: #777777;
@@ -86,12 +91,22 @@ h2 {
 
     
 }
+input{
+   
+    background-color: white;
+    
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+}
 img {
         resize: both;
         max-width:10%;
         max-height:10%;
         margin: 23px;
-        float: left;
         
       }
 p{
@@ -107,7 +122,5 @@ footer{
     left: 0;
     text-align: center;
     padding: 10px;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5
 }
-
-
